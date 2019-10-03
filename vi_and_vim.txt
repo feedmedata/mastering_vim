@@ -20,18 +20,19 @@ vim
 	-g 		start gvim
 	
 # Configuration files:
-	1) VIMINIT		environment variable, if nonempty Vim executes its content,
+	1)  VIMINIT	environment variable, if nonempty Vim executes
+      its content,
 	2) .vimrc		configuration file, typically @HOME directory
 	3) .exrc
 
 
 # Environment variables relevant to Vim: 
-	1) SHELL		which shell or external interpreter uses for shell commands (!!, :!, etc.),
+	1) SHELL		which shell or external interpreter uses for 
+              shell commands (!!, :!, etc.),
 	2) VIMINIT		specifies ex commands to execute when Vim starts,
 	3) EXINIT		same as above,
-	4) VIMRUNTINME		points to support files, plugins, documentations, etc.
-
-@182
+	4) VIMRUNTINME		points to support files, plugins, docume-
+     ntations, etc.
 
 
 :q  - quit w/ saving warning
