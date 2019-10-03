@@ -10,34 +10,107 @@ def learn(desired_knowledge):
 
                                                     That's me.      
 ==============================================================
+
                                                                
                 <<< infoholic Vim chart >>> 
 
 
-vim 
-	-b		edit in binary mode
-	-cmd command	executes command before .vimrc files
-	-g 		start gvim
+# vim 
+
+	  -b		    edit in binary mode
+
+  	-cmd      command	executes command before .vimrc files
+
+  	-g 		    start gvim
+
+    -o f1 f2  multiwindow mode
 	
-# Configuration files:
-	1)  VIMINIT	environment variable, if nonempty Vim executes
-      its content,
-	2) .vimrc		configuration file, typically @HOME directory
-	3) .exrc
+
+# Configuration files (executed in listed order):
+
+	1)   VIMINIT	environment variable, if nonempty Vim executes
+       its content,
+
+	2)  .vimrc		configuration file, typically @HOME directory
+  2a) .gvim 
+
+	3)  .exrc
 
 
 # Environment variables relevant to Vim: 
-	1) SHELL		which shell or external interpreter uses for 
-              shell commands (!!, :!, etc.),
-	2) VIMINIT		specifies ex commands to execute when Vim starts,
-	3) EXINIT		same as above,
+
+	1) SHELL		      which shell or external interpreter uses 
+                    for shell commands (!!, :!, etc.),
+
+	2) VIMINIT	      specifies ex commands to execute when Vim 
+                    starts,
+
+	3) EXINIT		      same as above,
+
 	4) VIMRUNTINME		points to support files, plugins, docume-
-     ntations, etc.
+                    ntations, etc.
+
+# Basics
+
+   a    enters INSERT mode, 
+   ESC  enters normal mode, 
+   :    enters command mode (press : while in normal mode), 
 
 
-:q  - quit w/ saving warning
-:q! - force quit w/o saving
 
-:help 
+# Mouse support
 
-:e  - edit the file 
+  :set mouse=""
+  :set mouse=a
+
+
+# Moving around the file
+
+  :go n    go to the n-th byte of file
+  
+
+
+
+# [WIP] 
+
+
+
+  :map <key> <behaviour>
+  :set syntax=<language>
+
+  :menu lists all menus 
+
+
+
+
+  :exit
+
+  :q  - quit w/ saving warning
+  :q! - force quit w/o saving
+
+  :help 
+
+  :e  - edit the file 
+
+  :files Lists opened files/buffers. 
+
+  :colorscheme
+
+# Multiwindow work
+
+  :new/:vnew            Starts the new window editing empty file;
+  
+  :<n>split <f_path>    Opens new window in split window, where n is number of
+                        lines in a split and f_path is path to a file;
+  
+  :sfind <f_path>       Looks for the file in f_path, if absent, no split;
+  :sview <f_path>       New window with readonly buffor for required f_path;
+
+
+
+
+
+
+
+
+
