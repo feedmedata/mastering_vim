@@ -17,24 +17,24 @@ def learn(desired_knowledge):
 
 # vim 
 
-	  -b		    edit in binary mode
+    -b		    edit in binary mode
 
-  	-cmd      command	executes command before .vimrc files
+    -cmd      command	executes command before .vimrc files
 
-  	-g 		    start gvim
+    -g 		    start gvim
 
     -o f1 f2  multiwindow mode
 	
 
 # Configuration files (executed in listed order):
 
-	1)   VIMINIT	environment variable, if nonempty Vim executes
+  1)   VIMINIT	environment variable, if nonempty Vim executes
        its content,
 
-	2)  .vimrc		configuration file, typically @HOME directory
+  2)  .vimrc		configuration file, typically @HOME directory
   2a) .gvim 
 
-	3)  .exrc
+  3)  .exrc
 
 
 # Environment variables relevant to Vim: 
