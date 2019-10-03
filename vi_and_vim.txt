@@ -1,0 +1,42 @@
+   (_)   ____    / __/  ____    / /_   ____    / /   (_)  _____
+  / /   / __ \  / /_   / __ \  / __ \ / __ \  / /   / /  / ___/
+ / /   / / / / / __/  / /_/ / / / / // /_/ / / /   / /  / /__  
+/_/   /_/ /_/ /_/     \____/ /_/ /_/ \____/ /_/   /_/   \___/  
+
+                                                         
+def learn(desired_knowledge):
+      while access_time(desired_knowledge) > instant_access: 
+          iterate(desired_knowledge) 
+
+                                                    That's me.      
+==============================================================
+                                                               
+                <<< infoholic Vim chart >>> 
+
+
+vim 
+	-b		edit in binary mode
+	-cmd command	executes command before .vimrc files
+	-g 		start gvim
+	
+# Configuration files:
+	1) VIMINIT		environment variable, if nonempty Vim executes its content,
+	2) .vimrc		configuration file, typically @HOME directory
+	3) .exrc
+
+
+# Environment variables relevant to Vim: 
+	1) SHELL		which shell or external interpreter uses for shell commands (!!, :!, etc.),
+	2) VIMINIT		specifies ex commands to execute when Vim starts,
+	3) EXINIT		same as above,
+	4) VIMRUNTINME		points to support files, plugins, documentations, etc.
+
+@182
+
+
+:q  - quit w/ saving warning
+:q! - force quit w/o saving
+
+:help 
+
+:e  - edit the file 
